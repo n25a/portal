@@ -1,8 +1,8 @@
-server: ""
+server: "123.6.7.8"
 users:
-  - passowrd: "password"
+  - password: "password"
     port: 3306
-  - passowrd: "password"
-    port: 3306
-  - passowrd: "password"
-    port: 3306
+  - password: "password"
+    port: 3307
+  - password: "password"
+    port: 3308
