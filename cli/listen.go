@@ -30,7 +30,7 @@ func (e *listenCmd) Run() error {
 		go func(user config.User) {
 			cmd := exec.Command(
 				"go-shadowsocks2", "-s",
-				fmt.Sprintf("'ss://AES-256-GCM:%s@:%d'",
+				fmt.Sprintf("'ss://AEAD_CHACHA20_POLY1305:%s@:%d'",
 					user.Password,
 					user.Port),
 				"-verbose")
