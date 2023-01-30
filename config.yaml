@@ -1,0 +1,8 @@
+server: ""
+users:
+  - passowrd: "password"
+    port: 3306
+  - passowrd: "password"
+    port: 3306
+  - passowrd: "password"
+    port: 3306
